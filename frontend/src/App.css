@@ -1,0 +1,148 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #222;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-items a:hover {
+    color: #61dafb;
+}
+
+.user{
+  font-size: 12px;
+  gap: 5px
+}
+
+.cards{
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+    width: 200px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #222;
+}
+
+.card p {
+  font-size: 10px;
+    margin-bottom: 12px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.card button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+    background-color: #1d4ed8;
+}
+
+.card button.enroll-btn {
+    background-color: #2563eb;
+}
+
+.card button.enrolled-btn {
+    background-color: #16a34a;
+}
+
+/* Add Course Form */
+
+.add-course-form {
+  width: 350px;
+  padding: 20px;
+  margin: 30px auto;
+
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-course-form input {
+  padding: 10px 12px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+
+  font-size: 14px;
+  outline: none;
+}
+
+.add-course-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.add-course-form button {
+  padding: 10px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #2563eb;
+  color: white;
+
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.add-course-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 13px;
+    margin: 0;
+} 
+
+.card button.dlt-btn{
+    background-color: red;
+}
